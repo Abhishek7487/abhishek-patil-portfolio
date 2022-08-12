@@ -396,19 +396,8 @@ body {
 }
 
 @media screen and (max-width: 560px) {
-  .header-content {
-    gap: 3.2rem;
-    padding: 4rem;
-  }
-}
-
-@media screen and (max-width: 450px) {
   html {
-    font-size: 45.5%;
-  }
-
-  .header-content {
-    gap: 1.8rem;
+    font-size: 40.5%;
   }
 
   .header-imagebox {
@@ -426,6 +415,14 @@ body {
     align-items: center;
     overflow: hidden;
     border: 4px solid #6c69ff;
+  }
+
+  .header-content {
+    gap: 1.8rem;
+  }
+  .header-content {
+    gap: 3.2rem;
+    padding: 4rem;
   }
 
   .header-textbox {
