@@ -440,4 +440,8 @@ body {
   .textbox-social .social-link a img {
     height: 3.4rem;
   }
+
+  .section-footer {
+    padding: 1.4rem 2.4rem;
+  }
 }
