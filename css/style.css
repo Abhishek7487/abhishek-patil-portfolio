@@ -49,7 +49,14 @@ body {
 /* ------------- NAVBAR --------------- */
 /* ------------------------------------ */
 .section-navbar {
-  padding: 2.8rem 8.4rem;
+  background: rgba(0, 0, 0, 0.27);
+  backdrop-filter: blur(8px);
+  box-shadow: 0, 20px, 30px, rgba(0, 0, 0, 0.15);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 0.8rem 8.4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -101,6 +108,7 @@ body {
 
 .section-header {
   height: 58rem;
+  margin-top: 12rem;
   display: flex;
   flex-direction: column;
   gap: 4rem;
@@ -326,7 +334,7 @@ body {
 
 @media screen and (max-width: 1200px) {
   .section-navbar {
-    padding: 2.2rem 3.6rem;
+    padding: 1rem 3.6rem;
   }
 
   .section-projects {
@@ -344,7 +352,7 @@ body {
   }
 
   .section-header {
-    margin-top: 4rem;
+    margin-top: 16rem;
   }
 }
 
@@ -366,7 +374,7 @@ body {
   .section-header {
     height: 80rem;
     padding: 0;
-    margin-top: 0;
+    margin-top: 10rem;
   }
 
   .nav-list {
@@ -398,6 +406,10 @@ body {
 @media screen and (max-width: 560px) {
   html {
     font-size: 40.5%;
+  }
+
+  .section-header {
+    margin-top: 22rem;
   }
 
   .header-imagebox {
